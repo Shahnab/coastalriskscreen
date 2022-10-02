@@ -63,4 +63,13 @@ image_comparison(
     label2="2030",
 )
 
+st.markdown("### Korea")
+image_comparison(
+    img1="Korea2022.jpg",
+    img2="Korea2030.jpg",
+    label1="2022",
+    label2="2030",
+)
+
+
 st.write('For more information can use Climate Central coastal portal [link](https://coastal.climatecentral.org/map/10/88.4794/22.5674/?theme=sea_level_rise&map_type=year&basemap=roadmap&contiguous=true&elevation_model=best_available&forecast_year=2030&pathway=ssp1rcp26&percentile=p50&refresh=true&return_level=return_level_1&rl_model=gtsr&slr_model=ipcc_2021_med)')
